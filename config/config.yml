@@ -38,4 +38,11 @@ Nodes:
         WarnTimes: 5 # After (WarnTimes) consecutive warnings, the user will be limited. Set to 0 to punish overspeed user immediately.
         LimitSpeed: 30 # The speedlimit of a limited user (unit: mbps)
         LimitDuration: 10 # How many minutes will the limiting last (unit: minute)
+      GlobalDeviceLimitConfig:
+        Enable: true # Enable the global device limit of a user
+        RedisAddr: vcloud.tvmv.in: 52379 # The redis server address
+        RedisPassword: GnUUOn^Y3k9U@xi # Redis password
+        RedisDB: 11 # Redis DB
+        Timeout: 5 # Timeout for redis request
+        Expiry: 60 # Expiry time (second)        
       EnableFallback: false # Only support for Trojan and Vless
