@@ -40,7 +40,7 @@ Nodes:
         LimitDuration: 10 # How many minutes will the limiting last (unit: minute)
       GlobalDeviceLimitConfig:
         Enable: true # Enable the global device limit of a user
-        RedisAddr: vcloud.tvmv.in: 52379 # The redis server address
+        RedisAddr: vcloud.tvmv.in:52379 # The redis server address
         RedisPassword: GnUUOn^Y3k9U@xi # Redis password
         RedisDB: 11 # Redis DB
         Timeout: 5 # Timeout for redis request
