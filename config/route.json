@@ -24,11 +24,6 @@
                 "torrent",
                 "Thunder"
             ]
-        },
-        { 
-            "type": "field", 
-            "outboundTag": "block", 
-            "ip": ["geoip:cn"] 
-        }           
+        }          
     ]
 }

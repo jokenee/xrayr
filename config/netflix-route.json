@@ -17,12 +17,7 @@
                 "torrent",
                 "Thunder"
             ]
-        },
-        { 
-            "type": "field", 
-            "outboundTag": "block", 
-            "ip": ["geoip:cn"] 
-        },         
+        },        
         {
         "type": "field",
         "outboundTag": "laoyizi.cf",
